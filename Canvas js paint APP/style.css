@@ -1,0 +1,142 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    /* background-image: image-gradient(rgb(70, 255, 246), rgb(0, 0, 0)); */
+    background-image: linear-gradient(rgb(216, 121, 240), rgb(172, 240, 15), rgb(255, 255, 255));
+}
+
+div {
+    /* background-image: image-gradient(rgb(70, 255, 246), rgb(0, 0, 0)); */
+    background-image: linear-gradient(rgb(216, 121, 240), rgb(172, 240, 15), rgb(255, 255, 255));
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    background-color: rgb(214, 20, 221);
+    position: relative;
+    top: 80%;
+    border: black;
+    margin: 7px;
+    margin-bottom: 7px;
+    padding: 12px 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: rgb(30, 32, 29);
+    font-family: verdana;
+    font-size: 300%;
+}
+
+canvas {
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    width: 90%;
+    height: 70%;
+    border: 10px solid black;
+    border-radius: 10px;
+    display: block;
+    background-color: black;
+}
+
+a.tooltipMove span {
+    z-index: 10;
+    display: none;
+    padding: 14px 20px;
+    margin-top: 250px;
+    margin-left: 250px;
+    width: 200px;
+    line-height: 16px;
+}
+
+a.tooltipMove:hover span {
+    display: inline;
+    position: absolute;
+    color: #111;
+    border: 1px solid #DCA;
+    background: #fffAF0;
+}
+
+.callout {
+    z-index: 20;
+    position: absolute;
+    top: 250px;
+    border: 0;
+    /* left: 270px; */
+}
+
+a.tooltipClear span {
+    z-index: 10;
+    display: none;
+    padding: 14px 20px;
+    margin-top: 400px;
+    margin-left: 250px;
+    width: 200px;
+    line-height: 16px;
+}
+
+a.tooltipClear:hover span {
+    display: inline;
+    position: absolute;
+    color: #111;
+    border: 1px solid #DCA;
+    background: #fffAF0;
+}
+
+.callout {
+    z-index: 20;
+    position: absolute;
+    top: 400px;
+    border: 0;
+    /* left: 270px; */
+}
+
+a.tooltipRandom span {
+    z-index: 10;
+    display: none;
+    padding: 14px 20px;
+    margin-top: 550px;
+    margin-left: 250px;
+    width: 250px;
+    line-height: 16px;
+}
+
+a.tooltipRandom:hover span {
+    display: inline;
+    position: absolute;
+    color: #111;
+    border: 1px solid #DCA;
+    background: #fffAF0;
+}
+
+.callout {
+    z-index: 20;
+    position: absolute;
+    top: 550px;
+    border: 0;
+    /* left: 270px; */
+}
+
+a.tooltip,
+.tooltip1,
+.tooltip3 span {
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px #CCC;
+}
+
+::selection {
+    background: transparent;
+}
+
+::-moz-selection {
+    background: transparent;
+}
